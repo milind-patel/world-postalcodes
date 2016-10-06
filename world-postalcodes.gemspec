@@ -4,10 +4,10 @@ require 'yard'
 
 Gem::Specification.new do |s|
   s.name        = 'world-postalcodes'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.date        = '2016-10-04'
   s.summary     = "Gem to find details from postal_code inside India & USA"
-  s.description = "A gem to search details like city, state, state_code, country, timezone, latitude, longitude from postal code only in India & USA. We will be adding details for more countries soon"
+  s.description = "A gem to search details like city, state, state code, latitude, longitude, timezone and country from postal code only for India & USA. We will be adding details for more countries soon"
   s.authors     = ["Milind Patel"]
   s.email       = '66.milind@gmail.com'
   s.files       = ["lib/world_postalcodes.rb"]
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.executables   = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
   s.require_paths = ['lib']
   s.metadata["yard.run"] = "yri"
-  s.post_install_message = "Thanks for installing world-postalcodes!"
+  s.post_install_message = "Thanks for installing world-postalcodes!!!"
   s.required_ruby_version = '>= 1.8.6'
   s.extra_rdoc_files = ['README.md']
   s.homepage = 'https://github.com/milind-patel/world-postalcodes'

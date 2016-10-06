@@ -1,8 +1,8 @@
-# IndianPincodes [![Gem Version](https://badge.fury.io/rb/world-postalcodes.png)](https://badge.fury.io/rb/world-postalcodes.svg)
+# World-Postalcodes [![Gem Version](https://badge.fury.io/rb/world-postalcodes.png)](https://badge.fury.io/rb/world-postalcodes.svg)
 
-A simple gem to search city, state, state code, timezone, latitude,longitude and country details from postal code only in India & USA. All details has been stored in yaml file. We will be adding postal code details for more countries soon.
+A simple gem to search city, state, state code, latitude, longitude, timezone and country details from postal code only for India & USA. All details has been stored in yaml file. We will be adding postal code details for more countries soon.
 
-Note: You need around 35MB free space in your system or server to use this gem.
+Note: You need around 45MB free space in your system or server to use this gem.
 
 ## Installation
 
