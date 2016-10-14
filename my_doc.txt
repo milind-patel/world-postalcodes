@@ -1,0 +1,16 @@
+Steps to deploy gem on rubygems
+
+1) gem build world-postalcodes.gemspec
+
+2) gem install world-postalcodes-1.0.2.gem
+
+3) irb
+		require "world_postalcodes"
+		WorldPostalcode.search("382481")
+
+4) Remove a perticular gem version from rubygems
+		gem yank world-postalcodes -v 1.0.2
+
+5) curl -u milind-patel https://rubygems.org/api/v1/api_key.yaml > ~/.gem/credentials; chmod 0600 ~/.gem/credentials
+
+6) gem push world-postalcodes-1.0.2.gem
