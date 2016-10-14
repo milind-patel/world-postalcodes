@@ -1,6 +1,6 @@
 # World-Postalcodes [![Gem Version](https://badge.fury.io/rb/world-postalcodes.png)](https://badge.fury.io/rb/world-postalcodes.svg)
 
-A simple gem to search city, state, state code, latitude, longitude, timezone and country details from postal code only for India & USA. All details has been stored in yaml file. We will be adding postal code details for more countries soon.
+A simple gem to search city, state, state code, latitude, longitude, timezone and country details from postal code only for USA, India & Japan. All details has been stored in yaml file. We will be adding postal code details for more countries soon.
 
 Note: You need around 45MB free space in your system or server to use this gem.
 
@@ -29,6 +29,9 @@ WorldPostalcodes.search("04574")
 
 WorldPostalcodes.search('382481')
 # => {:city=>"Ahmedabad", :state=>"GUJARAT", :post_office=>"Nirnaynagar", :taluka_name=>"Ahmadabad, :district_name=>"Ahmedabad", :head_office=>"Gandhinagar (Gujarat)", :sub_office=>"NA", :country=>"India"}
+
+WorldPostalcodes.search("441-3106")
+# => {:city=>"Toyohashishi", :state=>"Aichiken", :latitude=>34.7246, :longitude=>137.476, :country=>"Japan"}
 
 # First run will take a while, as the yaml has to be loaded.
 ```

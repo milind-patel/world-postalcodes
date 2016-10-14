@@ -1,13 +1,12 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'yard'
 
 Gem::Specification.new do |s|
   s.name        = 'world-postalcodes'
-  s.version     = '1.0.1'
+  s.version     = '1.0.2'
   s.date        = '2016-10-04'
-  s.summary     = "Gem to find details from postal_code inside India & USA"
-  s.description = "A gem to search details like city, state, state code, latitude, longitude, timezone and country from postal code only for India & USA. We will be adding details for more countries soon"
+  s.summary     = "Gem to find details from postal_code inside USA, India & Japan"
+  s.description = "A gem to search details like city, state, state code, latitude, longitude, timezone and country from postal code only for USA, India & Japan. We will be adding details for more countries soon"
   s.authors     = ["Milind Patel"]
   s.email       = '66.milind@gmail.com'
   s.files       = ["lib/world_postalcodes.rb"]
